@@ -6,13 +6,13 @@ let operation = "Addition";
 // Write if-statements here
 
 if (operation === "Substraction") {
-  console.log("This operation is false");
+  console.log(firstnumber - secondnumber);
 } else if (operation === "Addition") {
   console.log(firstnumber + secondnumber);
 } else if (operation === "Multiplication") {
-  console.log("No, nothing here");
+  console.log(firstnumber * secondnumber);
 } else {
-  console.log("Go back and study");
+  console.log(firstnumber / secondnumber);
 }
 
 console.log("Task done successfully");
